@@ -1,5 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Cinzel&family=Diphylleia&family=Quicksand&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.body{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+
+    line-height: 1.6;
+}
+.heading-2{
+    font-family: 'Diphylleia', serif;
+    font-weight: 800;
+}
+
+.heading-3{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.name{
+    font-family: 'Cinzel', serif;
+}
+
+.second_box :hover .heading-3{
+    color: beige;
+}
+
+li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
